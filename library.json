@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/lakshanthad/seeed-ardupy-dht.git"
     },
     "dependencies": [{
         "name": "Seeed_Arduino_DHT",
