@@ -79,8 +79,8 @@ MP_DEFINE_CONST_FUN_OBJ_KW(dht_ctof_obj, 1, dht_ctof);
 const mp_rom_map_elem_t dht_locals_dict_table[] = {
     //instance methods
     {MP_ROM_QSTR(MP_QSTR_deinit), MP_ROM_PTR(&dht_deinit_obj)},
-    {MP_ROM_QSTR(MP_QSTR___enter__), MP_ROM_PTR(&default___enter___obj)},
-    {MP_ROM_QSTR(MP_QSTR___exit__), MP_ROM_PTR(&dht_obj___exit___obj)},
+    {MP_ROM_QSTR(MP_QSTR___enter___), MP_ROM_PTR(&default___enter___obj)},
+    {MP_ROM_QSTR(MP_QSTR___exit___), MP_ROM_PTR(&dht_obj___exit___obj)},
     {MP_ROM_QSTR(MP_QSTR_ctof), MP_ROM_PTR(&dht_ctof_obj)}, //add the function with parameters
 };
 MP_DEFINE_CONST_DICT(dht_locals_dict, dht_locals_dict_table);
