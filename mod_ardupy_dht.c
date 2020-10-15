@@ -23,7 +23,7 @@ m_generic_make(dht)
         //three parameters
         ARG_pin,
         ARG_type,
-        ARG_count
+        ARG_count,
     };
     static const mp_arg_t allowed_args[] = {
         {MP_QSTR_pin, MP_ARG_INT, {.u_int = -1}}, //default value is -1
